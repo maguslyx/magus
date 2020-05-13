@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:host=rds-web-system.cm4jlivw6jxc.ap-northeast-1.rds.amazonaws.com;dbname=db_services';
+$dsn = 'mysql:host=rds-web-lyx.crqmemsomjjy.ap-northeast-1.rds.amazonaws.com;dbname=db_services_lyx';
 $username = 'admin';
 $password = '007a007b';
 
@@ -41,7 +41,7 @@ Last Access Time<br><br>
 <?php foreach ($rec as $a):?>
         <?=escape1($a)?><br>
 <?php endforeach; ?>
-Add comment by Mamoru lyx
+Add comment by lyx
 </body>
 </html>
 
