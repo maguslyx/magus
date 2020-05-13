@@ -1,7 +1,7 @@
 <?php
 $dsn = 'mysql:host=rds-web-system.cm4jlivw6jxc.ap-northeast-1.rds.amazonaws.com;dbname=db_services';
-$username = 'svc_user';
-$password = 'XXXXXXXX';
+$username = 'admin';
+$password = '007a007b';
 
 // try-catch
 try{
@@ -41,7 +41,7 @@ Last Access Time<br><br>
 <?php foreach ($rec as $a):?>
         <?=escape1($a)?><br>
 <?php endforeach; ?>
-Add comment by Mamoru Ito
+Add comment by Mamoru lyx
 </body>
 </html>
 
